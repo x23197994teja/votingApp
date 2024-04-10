@@ -1,25 +1,26 @@
 <!doctype html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="~{base::layout(~{::section})}">
 <head>
-	<meta charset="UTF-8" />
-	<title>Document</title>
+    <meta charset="UTF-8"/>
+    <title>Document</title>
 </head>
 <body>
-	<section class="center">
-		<div class="text-center">
-		
-			
-			<h1 class="font-weight-bold">Voting Application</h1>
-			
-			<div th:if=${session.msg}>
-			<h3 th:text="${session.msg}" style="color:red"></h3>
-   			<th:block th:text="${#session.removeAttribute('msg')}"></th:block>
-   
-   		</div>	
-	
-		</div>
-		
-	
-	</section>
+<section class="center">
+    <div class="text-center">
+        <h1 class="font-weight-bold">Voting Application</h1>
+
+        <div th:if=${session.msg}>
+            <h3 th:text="${session.msg}" style="color:red"></h3>
+            <th:block th:text="${#session.removeAttribute('msg')}"></th:block>
+
+        </div>
+
+		<h3>
+			Welcome to VoteX! Our online voting platform redefines democracy for the digital age. With us, voting is convenient, secure, and transparent. Cast your ballot from anywhere, using any device. We prioritize your privacy with robust security measures. Our user-friendly interface ensures a seamless voting experience for all. Plus, with real-time results, you can track election progress instantly. Join us in shaping the future of democracy. Register now and make your voice heard with VoteX!
+		</h3>
+    </div>
+
+
+</section>
 </body>
 </html>
