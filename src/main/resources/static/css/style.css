@@ -110,3 +110,56 @@ input[type="submit"] {
 input[type="submit"]:hover {
     background-color: #0056b3;
 }
+
+input[type=text] {
+  border: none;
+  border-bottom: 2px solid grey;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+input[type="password"] {
+  border: none;
+  border-bottom: 2px solid grey;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+input[type="number"] {
+  border: none;
+  border-bottom: 2px solid grey;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
+
+/* Navbar Styles */
+nav {
+    background-color: #333; /* Set background color */
+    border-radius: 60px; /* Add border radius for curved edges */
+    height: 60px; /* Set navbar height */
+    line-height: 80px; /* Center the text vertically */
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list style */
+    margin: 0;
+    padding: 0;
+    border-radius: 60px;
+}
+
+nav ul li {
+    display: inline; /* Display list items horizontally */
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 20px; /* Add padding to each link */
+    color: white; /* Set link color */
+    text-decoration: none; /* Remove underline from links */
+    transition: background-color 0.3s; /* Add smooth transition */
+    line-height: 60px; /* Center the text vertically */
+}
+
+nav ul li a:hover {
+    background-color: #555; /* Change background color on hover */
+}
