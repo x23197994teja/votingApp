@@ -23,7 +23,7 @@ public class AdminController {
 		int c1 = canServ.getNumOfVotes("candidate1");
 		int c2 = canServ.getNumOfVotes("candidate2");
 		int c3 = canServ.getNumOfVotes("candidate3");
-		int c4 = canServ.getNumOfVotes("candidate6");
+		int c4 = canServ.getNumOfVotes("candidate4");
 		
 		
 		m.addAttribute("c1", c1);
